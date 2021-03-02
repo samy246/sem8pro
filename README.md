@@ -1,24 +1,14 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_insta_clone/insta_home.dart';
+# flutter_instagram_ui_clone
 
-void main() => runApp(new MyApp());
+### Some Screenshots
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return new MaterialApp(
-      title: 'Buddies Pro',
-      debugShowCheckedModeBanner: false,
-      theme: new ThemeData(
-          primarySwatch: Colors.blue,
-          primaryColor: Colors.black,
-          buttonColor: Colors.black,
-          primaryIconTheme: IconThemeData(color: Colors.black),
-          primaryTextTheme: TextTheme(
-              bodyText1: TextStyle(color: Colors.black, fontFamily: "Aveny")),
-          textTheme: TextTheme(bodyText1: TextStyle(color: Colors.black))),
-      home: new InstaHome(),
-    );
-  }
-}
+<img src="ss_android.jpg" height="300em" />
+
+<img src="ss_ios.png" height="300em" />
+
+A new Flutter project.
+
+## Getting Started
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).
